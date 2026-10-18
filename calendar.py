@@ -1,20 +1,6 @@
 #WAP to generate calendar of a month given the start day and number of days in that month.
 
 
-'''st=int(input("Enter the start day of month(1-7): "))
-num=int(input("Enter number of days: "))
-print("Sun	Mon	Tue	Wed	Thu	Fri	Sat")
-print("----------------------------")
-for i in range(st-1):
-    print(end=" ")
-i = st -1
-for j in range(1,num+1):
-    if (i>6):
-        print()
-    else:
-        i+=1
-        print(str(j)+"	", end=" ")'''
-
 st = int(input("Enter the start day of month (1-7, where 1=Sun, 7=Sat): "))
 num = int(input("Enter number of days: "))
 
