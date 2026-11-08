@@ -1,0 +1,16 @@
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+college = input("Enter your college name: ")
+course = input("Enter your course: ")
+year = input("Enter your year of study: ")
+hometown = input("Enter your hometown: ")
+hobby = input("Enter your hobby: ")
+
+
+print("\nPersonal Introduction")
+print("Hello! My name is", name)
+print("I am", age, "years old.")
+print("I study at", college)
+print("I am pursuing", course, "and I am in year", year)
+print("I am from", hometown)
+print("My hobby is", hobby)
